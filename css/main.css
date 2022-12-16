@@ -778,7 +778,7 @@ a:hover.titleb18 {
 
 	div.pub-rnews a.pub-rnews-img img {
 		width: 100%;
-		height: 200px;
+		height: 100px;
 		margin-bottom: 10px;
 	}
 
@@ -876,6 +876,7 @@ a:hover.titleb18 {
 		margin-bottom: 0px;
 		border-bottom: none;
 		border-top: none;
+		display: flex;
 	}
 
 	div.tek-news div.pub-rnews-item:first-child a.pub-rnews-img {
@@ -2215,7 +2216,8 @@ a:hover.titleb18 {
 		height: 93px;
 	}
 
-	.c-template-list ul li .b-grid{
+	.c-template-list ul li .b-grid {
+		flex-direction: row;
 		display: flex;
 		gap: 15px;
 		align-items: flex-start;
@@ -4856,6 +4858,10 @@ div:hover.header-menu >nav >ul >li:hover >ul{
 
 	.c-template-list ul img{
 		width: 100%;
+	}
+
+	.c-template-list ul li .b-grid{
+		flex-direction: column;
 	}
 }
 
