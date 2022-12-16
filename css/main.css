@@ -188,6 +188,10 @@ a:hover.titleb18 {
 }
 
 @media all and (min-width: 320px) {
+	.kinhte-wrapper {
+		flex-direction: row;
+	}
+
 	nav:not(.mm-menu) {
 		display: none;
 	}
@@ -2194,6 +2198,7 @@ a:hover.titleb18 {
 	}
 
 	.bg-box {
+		margin-top: 5px;
 		width: auto;
 	}
 
@@ -2258,6 +2263,7 @@ a:hover.titleb18 {
 }
 
 @media all and (min-width: 375px) {
+	
 	div.evh-news-list {
 		width: 355px;
 	}
@@ -4510,7 +4516,12 @@ div:hover.header-menu >nav >ul >li:hover >ul{
 	}
 }
 
-@media all and (min-width: 1000px) {
+@media all and (min-width: 1130px) {
+	.kinhte-wrapper {
+		display: flex;
+		gap: 10px;
+	}
+
 	div.wrapper {
 		margin: auto;
 		width: 1130px;
@@ -4647,8 +4658,8 @@ div:hover.header-menu >nav >ul >li:hover >ul{
 	}
 
 	a.pub-rnews-tlist-img img {
-		width: 162px;
-		height: 93px;
+		width: 160px;
+		height: 90px;
 	}
 
 	div.corec-news {
