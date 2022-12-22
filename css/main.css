@@ -4004,6 +4004,7 @@ div:hover.header-menu >nav >ul >li:hover >ul{
 		border-bottom: 1px dotted #bebebe;
 		padding-bottom: 10px;
 		margin-bottom: 10px;
+		display: block;
 	}
 
 	div.pagelist {
@@ -4829,12 +4830,13 @@ div:hover.header-menu >nav >ul >li:hover >ul{
 	}
 
 	a.news-list-oneitemimg {
-		width: 256px;
+		width: 375px;
+		height: 210px;
 	}
 
 	a.news-list-oneitemimg img {
-		width: 375px;
 		height: 210px;
+		width: 375px;
 	}
 
 	div.news-listroneitem {
