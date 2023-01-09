@@ -4564,6 +4564,19 @@ div:hover.header-menu >nav >ul >li:hover >ul{
 }
 
 @media all and (min-width: 1130px) {
+    .content-infographic .image {
+        height: 1000px;
+    }
+
+    .content-infographic .image img {
+        position: absolute;
+        width: 100%;
+        max-width: unset;
+        left: 0;
+        height: 1000px;
+    }
+
+
     div.wrapper {
         margin: auto;
         width: 1130px;
